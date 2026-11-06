@@ -1,2 +1,2 @@
-# sunlit-tweaks
-Pack mod for Sunlit Valley
+# Bugsnatch
+It's Bugsnatch!
