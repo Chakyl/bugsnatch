@@ -1,0 +1,18 @@
+// 1.21.1	2026-09-13T10:29:00.4935942	Tags for minecraft:item mod id starcatcher
+32fc533bd5d03a26700b03dff478bf7982885c4f data/society/tags/item/autumn_fish.json
+1341e7f2bf52ed82b9b2d21196979ed946a33c42 data/society/tags/item/spring_fish.json
+aa0ef71b5ac469aa52c59e76a12f39dd56be0a62 data/society/tags/item/summer_fish.json
+da6a09ec695072d44c65b69011dd3dcec0ea5d15 data/society/tags/item/winter_fish.json
+533f0214ec02d812198d180c1f8c668c1f73485d data/starcatcher/tags/item/common_fishes.json
+e54126bb0259cf66cee85744b9a049894b64f5b1 data/starcatcher/tags/item/common_starcaught_fishes.json
+40dbd63c0558eaeb577426a462f2becdb81375ac data/starcatcher/tags/item/epic_fishes.json
+e940428bedf4f3c85bb410a8e300e2256f85a238 data/starcatcher/tags/item/epic_starcaught_fishes.json
+13ebbcb0fbe29a4ecc2cbd22c285ba57e57c50e5 data/starcatcher/tags/item/fishable.json
+ca6c389ca3dcf0c9ab79766f28a4b5b64c9d2c59 data/starcatcher/tags/item/legendary_fishes.json
+ca6c389ca3dcf0c9ab79766f28a4b5b64c9d2c59 data/starcatcher/tags/item/legendary_starcaught_fishes.json
+1a742c3487866f8f8c9d0f8a91df524cfd832889 data/starcatcher/tags/item/rare_fishes.json
+1b2f3830d1b92d30efa243891724c51041c0a42f data/starcatcher/tags/item/rare_starcaught_fishes.json
+9300ecae3072594ca2e854a306c335d75fb9793b data/starcatcher/tags/item/starcaught_fishable.json
+3607cce44c0487eb5501d7e84c513efa3cf06071 data/starcatcher/tags/item/starcaught_fishable_fish.json
+4762b0c154083c090c602447192b8fbd481dede4 data/starcatcher/tags/item/uncommon_fishes.json
+0a95baaba8c0a9b7c6e322db63baa82a691c5ea5 data/starcatcher/tags/item/uncommon_starcaught_fishes.json

@@ -1,0 +1,10 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "crittersandcompanions"
+        }
+    ],
+    "entity": "crittersandcompanions:stag_beetle",
+    "saved_tags": ["Variant"]
+}

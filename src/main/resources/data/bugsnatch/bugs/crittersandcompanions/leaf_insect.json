@@ -1,0 +1,10 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "crittersandcompanions"
+        }
+    ],
+    "entity": "crittersandcompanions:leaf_insect",
+    "saved_tags": ["Variant"]
+}

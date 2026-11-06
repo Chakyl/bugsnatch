@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "io.github.chakyl.bugsnatch.mixin",
+  "refmap": "mixins.bugsnatch.refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "priority": 1001,
+  "client": [
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

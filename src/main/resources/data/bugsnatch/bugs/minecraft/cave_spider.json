@@ -1,0 +1,13 @@
+{
+  "entity": "minecraft:cave_spider",
+  "render_scale": 0.55,
+  "bites": true,
+  "bite_damage": 2,
+  "bite_effects": [
+    {
+      "id": "minecraft:poison",
+      "duration": 120,
+      "amplifier": 0
+    }
+  ]
+}

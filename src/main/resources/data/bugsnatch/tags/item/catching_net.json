@@ -1,0 +1,7 @@
+{
+  "values": [
+    "bugsnatch:catching_net",
+    { "id": "longwings:catching_net", "required": false }, 
+    { "id": "naturalist:capture_net", "required": false }
+  ]
+}

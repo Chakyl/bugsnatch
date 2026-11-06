@@ -1,0 +1,6 @@
+{
+  "entity": "minecraft:spider",
+  "render_scale": 0.4,
+  "bites": true,
+  "bite_damage": 2
+}

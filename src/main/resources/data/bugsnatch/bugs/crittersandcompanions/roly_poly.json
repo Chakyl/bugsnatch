@@ -1,0 +1,10 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "crittersandcompanions"
+        }
+    ],
+    "entity": "crittersandcompanions:roly_poly",
+    "saved_tags": ["Variant"]
+}

@@ -1,0 +1,68 @@
+{
+  "values": [
+    {
+      "id": "minecraft:pufferfish",
+      "required": false
+    },
+    {
+      "id": "starcatcher:agave_bream",
+      "required": false
+    },
+    {
+      "id": "starcatcher:bluegigi",
+      "required": false
+    },
+    {
+      "id": "starcatcher:carpenjoe",
+      "required": false
+    },
+    {
+      "id": "starcatcher:downfall_bream",
+      "required": false
+    },
+    {
+      "id": "starcatcher:dusktail_snapper",
+      "required": false
+    },
+    {
+      "id": "starcatcher:petal_bass",
+      "required": false
+    },
+    {
+      "id": "starcatcher:shroomfish",
+      "required": false
+    },
+    {
+      "id": "starcatcher:silverveil_perch",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_amber_goby",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_bark_angelfish",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_copperflame_anthias",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_demon_herring",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_forkfish",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_picklefish",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_sailor_barb",
+      "required": false
+    }
+  ]
+}

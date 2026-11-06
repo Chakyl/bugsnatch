@@ -1,0 +1,5 @@
+{
+  "entity": "minecraft:silverfish",
+  "bites": true,
+  "bite_damage": 1
+}

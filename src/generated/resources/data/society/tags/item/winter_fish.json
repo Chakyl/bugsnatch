@@ -1,0 +1,44 @@
+{
+  "values": [
+    {
+      "id": "starcatcher:crystalback_boreal",
+      "required": false
+    },
+    {
+      "id": "starcatcher:frostgill_chub",
+      "required": false
+    },
+    {
+      "id": "starcatcher:rose_siamese_fish",
+      "required": false
+    },
+    {
+      "id": "starcatcher:sandtail",
+      "required": false
+    },
+    {
+      "id": "starcatcher:silverveil_perch",
+      "required": false
+    },
+    {
+      "id": "starcatcher:sporefish",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_aero_mono",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_duality_damselfish",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_frosty_fin",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_triple_twirl_pleco",
+      "required": false
+    }
+  ]
+}

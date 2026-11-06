@@ -1,0 +1,72 @@
+{
+  "values": [
+    {
+      "id": "minecraft:cod",
+      "required": false
+    },
+    {
+      "id": "minecraft:pufferfish",
+      "required": false
+    },
+    {
+      "id": "minecraft:tropical_fish",
+      "required": false
+    },
+    {
+      "id": "starcatcher:blue_herring",
+      "required": false
+    },
+    {
+      "id": "starcatcher:bluegigi",
+      "required": false
+    },
+    {
+      "id": "starcatcher:garnet_mackerel",
+      "required": false
+    },
+    {
+      "id": "starcatcher:ironjaw_herring",
+      "required": false
+    },
+    {
+      "id": "starcatcher:petal_bass",
+      "required": false
+    },
+    {
+      "id": "starcatcher:pink_koi",
+      "required": false
+    },
+    {
+      "id": "starcatcher:silverveil_perch",
+      "required": false
+    },
+    {
+      "id": "starcatcher:sludge_catfish",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_beaked_herring",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_blind_sailfin",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_drooping_gourami",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_eyelash",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_hatchetfish",
+      "required": false
+    },
+    {
+      "id": "unusualfishmod:raw_spindlefish",
+      "required": false
+    }
+  ]
+}

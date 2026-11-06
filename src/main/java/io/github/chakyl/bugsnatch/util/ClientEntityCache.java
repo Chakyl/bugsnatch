@@ -1,0 +1,53 @@
+package io.github.chakyl.bugsnatch.util;
+
+import io.github.chakyl.bugsnatch.Bugsnatch;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.level.Level;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.neoforge.client.event.ClientTickEvent;
+import net.neoforged.neoforge.event.level.LevelEvent;
+
+import java.util.Collection;
+import java.util.IdentityHashMap;
+import java.util.Map;
+
+/**
+ * Caches and retains client entities for rendering.
+ * <p>
+ * Entities are cleared on level unload.
+ */
+@EventBusSubscriber(value = Dist.CLIENT, modid = Bugsnatch.MODID)
+public class ClientEntityCache {
+
+    private static final Map<Level, Map<EntityType<?>, LivingEntity>> CACHE = new IdentityHashMap<>();
+
+    @SuppressWarnings("unchecked")
+    public static LivingEntity computeIfAbsent(Level level, CompoundTag displayNbt, EntityType<?> type) {
+        var map = CACHE.computeIfAbsent(level, l -> new IdentityHashMap<>());
+        return map.computeIfAbsent(type, k -> {
+            Entity entity = type.create(level);
+            if (entity instanceof LivingEntity living) {
+                living.load(displayNbt);
+                return living;
+            }
+            return null;
+        });
+    }
+
+    @SubscribeEvent
+    public static void tick(ClientTickEvent.Pre event) {
+        CACHE.values().stream().map(Map::values).flatMap(Collection::stream).forEach(e -> e.tickCount++);
+    }
+
+    @SubscribeEvent
+    public static void unload(LevelEvent.Unload event) {
+        if (event.getLevel().isClientSide()) {
+            CACHE.remove(event.getLevel());
+        }
+    }
+}
